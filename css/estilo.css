@@ -132,4 +132,13 @@
         filter: contrast(120%);
 
     }
+
+    .li-mobile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .w-mobile{
+        width: 100vw;
+    }
 }
