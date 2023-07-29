@@ -58,25 +58,6 @@
   height: 400px;
 }
 
-.section {
-  height: 70vh;
-  border: 3px solid green;
-}
-
-.img-section {
-  width: 0px;
-  flex-grow: 1;
-  object-fit: cover;
-  opacity: 0.5;
-  transition: 0.5s ease;
-}
-
-.img-section:hover {
-  width: 300px;
-  opacity: 1;
-  filter: contrast(120%);
-}
-
 .iframe-footer {
   height: 100px;
   width: 100px;
@@ -104,20 +85,12 @@
     height: 300px;
   }
   .img-index-mobile {
-    height: 250px;
+    height: 150px;
     width: 300px;
   }
   .vid-mobile {
     height: 400px;
     width: 400px;
-  }
-  .section-mobile {
-    height: 300px;
-  }
-  .img-section:hover {
-    width: 200px;
-    opacity: 1;
-    filter: contrast(120%);
   }
   .li-mobile {
     display: flex;
@@ -127,5 +100,38 @@
     width: 100vw;
   }
 }
+.section {
+  height: 70vh;
+  border: 3px solid green;
+}
+
+.section .img-section {
+  width: 0px;
+  flex-grow: 1;
+  -o-object-fit: cover;
+  object-fit: cover;
+  opacity: 0.5;
+  transition: 0.5s ease;
+}
+
+.section .img-section:hover {
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .section {
+    height: 300px;
+  }
+  .section .section-mobile {
+    height: 300px;
+  }
+  .section .img-section:hover {
+    width: 200px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+} 
 
 /*# sourceMappingURL=estilo.css.map */

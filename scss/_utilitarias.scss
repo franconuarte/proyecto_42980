@@ -1,0 +1,80 @@
+.bg-ecd {
+    background-color: $fondo-header;
+}
+
+.bg-img {
+    background-image: url(../assets/img/fondo-index.jpg);
+    background-size: cover;
+    height: $altura-fondo;
+}
+
+.bg-img-1 {
+    background-color: rgba(0, 0, 0, 0.529);
+    height: $altura-fondo;
+}
+
+.img-index {
+    height: 500px;
+
+}
+
+.img-index2 {
+    height: 400px;
+}
+
+.iframe-footer {
+    height: 100px;
+    width: 100px;
+}
+
+.icon-redes {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .fondo-index-mobile {
+        height: $altura-fondo-2;
+    }
+
+    .h1-mobile {
+        font-size: $fuente-rem-1-mobile;
+    }
+
+    .h2-mobile {
+        font-size: $fuente-rem-2-mobile;
+    }
+
+    .p-mobile {
+        font-size: $fuente-rem-3-mobile;
+    }
+
+    .img-index {
+        height: 300px;
+    }
+
+    .img-index-mobile {
+        height: 150px;
+        width: 300px;
+    }
+
+    .vid-mobile {
+        height: 400px;
+        width: 400px;
+    }
+
+    .li-mobile {
+        display: $flex;
+        justify-content: $flex-center;
+    }
+
+    .w-mobile {
+        width: 100vw;
+    }
+}
