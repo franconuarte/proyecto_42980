@@ -14,17 +14,17 @@
 }
 
 .font-1 {
-    font-family: $tipografia-1;
+    font-family: map-get($tipografia,1);
     font-size: $fuente-rem-1;
 }
 
 .font-2 {
-    font-family: $tipografia-2;
+    font-family: map-get($tipografia,2);
     font-size: $fuente-rem-2;
 }
 
 .rem-h1 {
-    font-family: $tipografia-2;
+    font-family: map-get($tipografia,2);
     font-size: $fuente-rem-3;
 }
 

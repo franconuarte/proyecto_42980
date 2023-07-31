@@ -70,8 +70,7 @@
     }
 
     .li-mobile {
-        display: flex;
-        justify-content: center;
+       @include justify-content-center(center)
     }
 
     .w-mobile {
