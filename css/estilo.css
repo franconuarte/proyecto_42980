@@ -124,7 +124,7 @@
   .section {
     height: 300px;
   }
-  .section .section-mobile {
+  .section .img-section {
     height: 300px;
   }
   .section .img-section:hover {
