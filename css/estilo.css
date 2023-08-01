@@ -120,13 +120,16 @@
   height: 70vh;
   border: 3px solid green;
 }
+
 .section .img-section {
   width: 0px;
   flex-grow: 1;
+  -o-object-fit: cover;
   object-fit: cover;
   opacity: 0.5;
   transition: 0.5s ease;
 }
+
 .section .img-section:hover {
   width: 300px;
   opacity: 1;
@@ -158,6 +161,9 @@
   }
 }
 @keyframes reservar {
+  0% {
+    transform: rotateY(0deg);
+  }
   25% {
     transform: rotateY(30deg);
   }
@@ -176,8 +182,11 @@
   85% {
     transform: rotateY(0deg);
   }
-  100% {
+  90% {
     transform: rotateY(30deg);
+  }
+  100% {
+    transform: rotateY(0deg);
   }
 }
 .reservar {
@@ -198,6 +207,6 @@
 
 .fc-icon {
   animation-delay: 1s;
-}
+} 
 
 /*# sourceMappingURL=estilo.css.map */
