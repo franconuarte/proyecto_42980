@@ -59,6 +59,18 @@
   height: 400px;
 }
 
+.boton-reservar {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  width: 20vw;
+}
+
+.boton-reservar-2 {
+  @ex;
+}
+
 .iframe-footer {
   height: 100px;
   width: 100px;
@@ -100,21 +112,21 @@
   .w-mobile {
     width: 100vw;
   }
+  .icon-redes {
+    padding-right: 5px;
+  }
 }
 .section {
   height: 70vh;
   border: 3px solid green;
 }
-
 .section .img-section {
   width: 0px;
   flex-grow: 1;
-  -o-object-fit: cover;
   object-fit: cover;
   opacity: 0.5;
   transition: 0.5s ease;
 }
-
 .section .img-section:hover {
   width: 300px;
   opacity: 1;
@@ -133,6 +145,54 @@
     opacity: 1;
     filter: contrast(120%);
   }
-} 
+}
+@keyframes redes {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(15px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes reservar {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes reservar-2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.reservar {
+  animation: reservar infinite 3s ease-in-out;
+}
+
+.reservar-2 {
+  animation: reservar-2 infinite 3s ease-in-out;
+}
+
+.icon {
+  animation: redes infinite 3s ease-in-out;
+}
+
+.fc-icon {
+  animation-delay: 1s;
+}
 
 /*# sourceMappingURL=estilo.css.map */
