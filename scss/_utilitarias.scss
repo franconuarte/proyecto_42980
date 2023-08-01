@@ -1,5 +1,6 @@
 .bg-ecd {
     background-color: $fondo-header;
+
 }
 
 .bg-img {
@@ -20,6 +21,13 @@
 
 .img-index2 {
     height: 400px;
+}
+
+.boton-reservar {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    width: 20vw;
 }
 
 .iframe-footer {
@@ -70,11 +78,14 @@
     }
 
     .li-mobile {
-        display: $flex;
-        justify-content: $flex-center;
+        @include justify-content-center(center)
     }
 
     .w-mobile {
         width: 100vw;
+    }
+
+    .icon-redes {
+        padding-right: 5px;
     }
 }

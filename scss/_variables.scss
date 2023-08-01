@@ -1,5 +1,3 @@
-$tipografia-1: "greatvibes";
-$tipografia-2: "kaushanscript";
 $fuente-rem-1: 6rem;
 $fuente-rem-1-mobile: 2.2rem;
 $fuente-rem-2: 3rem;
@@ -11,5 +9,11 @@ $color-letra: yellow;
 $fondo-header: #ecd86a;
 $altura-fondo: 70vh;
 $altura-fondo-2: 50vh;
-$flex: flex;
-$flex-center: center;
+
+
+
+/*maps*/
+$tipografia: (
+    1 : "greatvibes",
+    2 : "kaushanscript",
+    )
