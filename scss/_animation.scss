@@ -14,16 +14,40 @@
 }
 
 @keyframes reservar {
+
     0% {
-        transform: translateX(0);
+        transform: rotateY(0deg);
+    }
+
+    25% {
+        transform: rotateY(30deg);
+    }
+
+    30% {
+        transform: rotateY(0deg);
     }
 
     50% {
-        transform: translateX(30px);
+        transform: rotateY(30deg);
+    }
+
+    60% {
+        transform: rotateY(0deg);
+    }
+
+    75% {
+        transform: rotateY(30deg);
+    }
+    85%{
+        transform: rotateY(0deg);
+    }
+
+    90% {
+        transform: rotateY(30deg);
     }
 
     100% {
-        transform: translateX(0);
+        transform: rotateY(0deg);
     }
 
 }
@@ -31,6 +55,14 @@
 
 .reservar {
     animation: reservar infinite 3s ease-in-out;
+}
+
+.reservar-2 {
+    animation-delay: 0.5s;
+}
+
+.reservar-3 {
+    animation-delay: 1s;
 }
 
 .icon {
