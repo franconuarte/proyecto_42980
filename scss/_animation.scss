@@ -1,14 +1,29 @@
 @keyframes redes {
     0% {
-        transform: translateX(0);
+        transform: translateX(0px);
     }
 
     50% {
-        transform: translateX(15px);
+        transform: translateX(10px);
     }
 
     100% {
-        transform: translateX(0);
+        transform: translateX(0px);
+    }
+
+}
+
+@keyframes redes-mobile {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0px);
     }
 
 }
@@ -38,7 +53,8 @@
     75% {
         transform: rotateY(30deg);
     }
-    85%{
+
+    85% {
         transform: rotateY(0deg);
     }
 
@@ -71,4 +87,13 @@
 
 .fc-icon {
     animation-delay: 1s;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .icon-mobile {
+        animation: redes-mobile infinite 3s ease-in-out;
+    }
+    .fc-icon {
+        animation-delay: 1s;
+    }
 }

@@ -12,6 +12,7 @@
 .bg-img-1 {
     background-color: rgba(0, 0, 0, 0.529);
     height: $altura-fondo;
+    overflow: hidden;
 }
 
 .img-index {
@@ -29,15 +30,27 @@
     background-color: $fondo-header;
     width: 20vw;
 }
-.boton-reservar:hover{
+
+.boton-reservar:hover {
     color: black;
     background-color: yellow;
 }
 
+
 .iframe-footer {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 500px;
 }
+
+.logo-footer {
+    height: 200px;
+    width: 250px;
+}
+
+.redes {
+    flex-direction: column;
+}
+
 
 .icon-redes {
     height: 50px;
@@ -82,14 +95,27 @@
     }
 
     .li-mobile {
-        @include justify-content-center(center)
+        @include justify-content-center(center);
     }
 
     .w-mobile {
         width: 100vw;
     }
 
-    .icon-redes {
-        padding-right: 5px;
+
+    .iframe-footer {
+        height: 100px;
+        width: 200px;
     }
+
+    .logo-footer {
+        height: 100px;
+        width: 150px;
+    }
+
+    .redes {
+        flex-direction: row;
+    }
+
+
 }
