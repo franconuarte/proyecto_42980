@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.overflow{
+    overflow: hidden;
+}
 @font-face {
     font-family: "greatvibes";
     src: url(../assets/fonts/GreatVibes-Regular.ttf);
@@ -34,4 +37,7 @@
 
 .color-yellow {
     color: $color-letra;
+}
+.color-black{
+    color: black;
 }

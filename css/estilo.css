@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+.overflow {
+  overflow: hidden;
+}
+
 @font-face {
   font-family: "greatvibes";
   src: url(../assets/fonts/GreatVibes-Regular.ttf);
@@ -36,6 +40,10 @@
   color: yellow;
 }
 
+.color-black {
+  color: black;
+}
+
 .bg-ecd {
   background-color: #ecd86a;
 }
@@ -49,6 +57,7 @@
 .bg-img-1 {
   background-color: rgba(0, 0, 0, 0.529);
   height: 70vh;
+  overflow: hidden;
 }
 
 .img-index {
@@ -72,8 +81,17 @@
 }
 
 .iframe-footer {
-  height: 100px;
-  width: 100px;
+  height: 300px;
+  width: 500px;
+}
+
+.logo-footer {
+  height: 200px;
+  width: 250px;
+}
+
+.redes {
+  flex-direction: column;
 }
 
 .icon-redes {
@@ -112,8 +130,16 @@
   .w-mobile {
     width: 100vw;
   }
-  .icon-redes {
-    padding-right: 5px;
+  .iframe-footer {
+    height: 100px;
+    width: 200px;
+  }
+  .logo-footer {
+    height: 100px;
+    width: 150px;
+  }
+  .redes {
+    flex-direction: row;
   }
 }
 .section {
@@ -151,13 +177,24 @@
 }
 @keyframes redes {
   0% {
-    transform: translateX(0);
+    transform: translateX(0px);
   }
   50% {
-    transform: translateX(15px);
+    transform: translateX(10px);
   }
   100% {
-    transform: translateX(0);
+    transform: translateX(0px);
+  }
+}
+@keyframes redes-mobile {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }
 @keyframes reservar {
@@ -207,6 +244,15 @@
 
 .fc-icon {
   animation-delay: 1s;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .icon-mobile {
+    animation: redes-mobile infinite 3s ease-in-out;
+  }
+  .fc-icon {
+    animation-delay: 1s;
+  }
 } 
 
 /*# sourceMappingURL=estilo.css.map */
