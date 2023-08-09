@@ -57,6 +57,11 @@
     width: 50px;
 }
 
+.icon-redes2 {
+    height: 30px;
+    width: 30px;
+}
+
 
 
 
@@ -115,6 +120,12 @@
 
     .redes {
         flex-direction: row;
+    }
+
+    .redes-footer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
     }
 
 
