@@ -100,8 +100,8 @@
 }
 
 .icon-redes2 {
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
@@ -145,6 +145,11 @@
   }
   .redes {
     flex-direction: row;
+  }
+  .redes-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
   }
 }
 .section {

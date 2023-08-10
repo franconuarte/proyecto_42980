@@ -1,5 +1,6 @@
 .section {
     height: $altura-fondo;
+    width: 90vw;
     border: 3px solid green;
 
     .img-section {
@@ -8,6 +9,9 @@
         object-fit: cover;
         opacity: .5;
         transition: .5s ease;
+    }
+    .flex-grow-3{
+        flex-grow: 3;
     }
 
     .img-section:hover {
