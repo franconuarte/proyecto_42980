@@ -68,6 +68,11 @@
   height: 400px;
 }
 
+.img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .boton-reservar {
   color: black;
   text-decoration: none;
@@ -78,6 +83,11 @@
 .boton-reservar:hover {
   color: black;
   background-color: yellow;
+}
+
+fondo .foto-404 {
+  height: 100vh;
+  width: 100vw;
 }
 
 .iframe-footer {
@@ -154,6 +164,7 @@
 }
 .section {
   height: 70vh;
+  width: 90vw;
   border: 3px solid green;
 }
 .section .img-section {
@@ -163,6 +174,9 @@
      object-fit: cover;
   opacity: 0.5;
   transition: 0.5s ease;
+}
+.section .flex-grow-3 {
+  flex-grow: 3;
 }
 .section .img-section:hover {
   width: 300px;

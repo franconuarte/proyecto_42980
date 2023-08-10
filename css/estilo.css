@@ -84,6 +84,15 @@
   background-color: yellow;
 }
 
+.fondo-404 {
+  background-color: rgb(247, 240, 240);
+}
+
+.foto-404 {
+  height: 60vh;
+  width: 60vw;
+}
+
 .iframe-footer {
   height: 300px;
   width: 500px;
@@ -137,6 +146,10 @@
     justify-content: center;
   }
   .w-mobile {
+    width: 100vw;
+  }
+  .foto-404 {
+    height: 35vh;
     width: 100vw;
   }
   .iframe-footer {

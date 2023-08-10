@@ -23,7 +23,8 @@
 .img-index2 {
     height: 400px;
 }
-.img{
+
+.img {
     object-fit: cover;
 }
 
@@ -37,6 +38,15 @@
 .boton-reservar:hover {
     color: black;
     background-color: yellow;
+}
+
+.fondo-404 {
+    background-color: rgb(247, 240, 240);
+}
+
+.foto-404 {
+    height: 60vh;
+    width: 60vw;
 }
 
 
@@ -107,6 +117,11 @@
     }
 
     .w-mobile {
+        width: 100vw;
+    }
+
+    .foto-404 {
+        height: 35vh;
         width: 100vw;
     }
 
